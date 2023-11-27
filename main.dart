@@ -9,9 +9,6 @@ class CurrencyConverterApp extends StatelessWidget {
     return MaterialApp(
       title: 'Currency Converter',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
       home: CurrencyConverter(),
     );
   }
